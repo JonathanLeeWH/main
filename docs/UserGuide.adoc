@@ -224,7 +224,7 @@ Import of pictures to aid in the medicine identification.
 *Command Format*
 
 * Words in `UPPER_CASE` are the parameters to be supplied by the user e.g. in `add n/NAME`, `NAME` is a parameter which can be used as `add n/Paracetamol`.
-* Items in square brackets are optional e.g `e.g n/NAME [t/TAG] can be used as `n/Paracetamol t/fever` or as `n/Paracetamol`.
+* Items in square brackets are optional e.g `n/NAME [t/TAG]` can be used as `n/Paracetamol t/fever` or as `n/Paracetamol`.
 * Items with `…`​ after them can be used multiple times including zero times e.g. `[t/TAG]…` can be used as `{nbsp}` (i.e. 0 times), `t/fever, t/painkiller t/inflammation` etc..
 * Parameters can be in any order e.g. if the command specifies `n/NAME c/COMPANY_NAME`, `c/COMPANY_NAME n/NAME` is also acceptable.
 * `INDEX` refers to the index number shown in the displayed medicine list. The index *must be a positive integer* 1, 2, 3, ...

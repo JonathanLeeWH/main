@@ -1204,7 +1204,6 @@ Expected: batch is removed from batch table shown in the information panel. Deta
 Expected: batch is added to batch table shown in the information panel. Details of the added batch shown in the status message. Total quantity should increase by `1`. Next expiry should be updated if batch removed had the closest expiry date. Filtered list should remain filtered.
 .. Test case: `update 1 b/E q/1 e/1/1/2020 b/F b/G q/2 e/2/1/2020`  (more than one valid input) +
 Expected: batch `G` is added to batch table shown in the information panel as last valid input is taken. Details of the added batch shown in the status message. Total quantity should increase by `2`. Next expiry of medicine should change if `02/01/2020` is earlier. Filtered list should remain filtered.
-=======
 
 // tag::exportcommandtest[]
 === Exporting as CSV file format
